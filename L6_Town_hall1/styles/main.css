@@ -1,0 +1,145 @@
+*{margin: 0;
+padding: 0;}
+html {
+	background-color: white;
+}
+/* the styles for the elements */
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 100%;
+	width: 800px;
+	margin-top: 0em;
+	margin-bottom: 0em;
+	margin-right: auto;
+	margin-left: auto;
+	border:solid 3px #931420;
+	background-color: #fffded;
+
+}
+/* the styles for the header */
+header{
+	border:solid 2px #931420;
+	padding-top: 1.5em;
+	padding-bottom: 2em;
+	background-image:linear-gradient(30deg, 
+	#ffcc70 0%,
+	#ffcc70 30%,
+	#ffffff 50%, 
+	#ffcc70 80%,
+	#ffcc70 60%);
+}
+header img {
+	float: left;
+	padding-left: 30px;
+	padding-right: 30px;
+	}
+
+header h2{
+	font-size:170%;
+	color:#800000;
+	
+}
+header h3
+{font-size:130%; 
+font-style:italic; 
+
+}
+header em
+{
+text-shadow:0 0 1px #800000;
+}
+
+
+
+/* the styles for the main */
+main {
+	clear: left;
+}
+/*Section*/
+section{
+	width: 525px;
+	float: right;
+	padding-right: 20px;
+	padding-left: 20px;
+	padding-bottom: 20px;
+}
+section h1{
+	padding-left: .5em;
+	font-size: 150%;
+	padding-top: .5em;
+	padding-bottom: .25em;
+	margin-top: 0em;
+	margin-bottom: 0em;
+}
+section p { 
+		padding-bottom: .5em;
+
+}
+section h2{
+	font-size:130%; 
+	color: #800000;
+	padding: .5em 0em .25em;
+}
+section blockquote{
+		padding-right: 2em;
+		padding-left: 2em;
+		font-style: italic;
+}
+
+section ul{
+		padding-bottom:.25em;
+		padding-left: 1.24em;
+}
+section li{
+		padding-bottom: .35em;
+}
+/*article*/
+article{
+	padding-top: .5em;
+	border-top: solid 2px #800000;
+	border-bottom: solid 2px #800000;
+}
+article img{
+	float:right;
+	margin: 1em;
+	border: solid 1px black;
+}
+article h2{
+	padding-top: 0em;
+}
+article h3{
+	font-size: 105%;
+	padding-bottom: .25em;
+}
+/* aside */
+aside{
+	width: 215px;
+	padding-left: 20px;
+	padding-bottom: .25em;
+	font-size: 105%;
+}
+aside img{
+	padding-bottom: 1em;
+	
+}
+aside h2{
+	font-size:130%;
+	padding: .5em 0em .25em;
+}
+aside h3{
+	font-size: 105%;
+	padding-bottom: .25em;
+}
+aside a{	
+	font-style:italic;
+}
+/* the styles for the footer */
+footer p{
+	text-align: center;
+	color: white;
+	padding: 1 1em;
+}
+Footer{
+	clear:both;
+	background-color: #931420;
+}
