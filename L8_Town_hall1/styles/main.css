@@ -1,0 +1,234 @@
+*{margin: 0;
+padding: 0;}
+html {
+	background-color: white;
+}
+/* the styles for the elements */
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 100%;
+	width: 98%;
+	max-width: 960px;
+	margin-top: 0em;
+	margin-bottom: 0em;
+	margin-right: auto;
+	margin-left: auto;
+	border:solid 3px #931420;
+	background-color: #fffded;
+
+}
+/* the styles for the header */
+header{
+	border:solid 2px #931420;
+	padding-top: 1.5em;
+	padding-bottom: 2em;
+	background-image:linear-gradient(30deg, 
+	#ffcc70 0%,
+	#ffcc70 30%,
+	#ffffff 50%, 
+	#ffcc70 80%,
+	#ffcc70 60%);
+}
+header img {
+	float: left;
+	padding-left: 3.75%;
+	padding-right: 3.75%;
+	}
+
+header h2{
+	font-size:170%;
+	color:#800000;
+	
+}
+header h3
+{font-size:130%; 
+font-style:italic; 
+
+}
+header em
+{
+text-shadow:0 0 1px #800000;
+}
+/* Navigation bar */
+
+#nav_list ul{
+	list-style-type: none;
+	position: relative;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+
+}
+#nav_list ul li{
+	float: left;
+	width: 20%;
+}
+#nav_list ul li a{
+	text-align: center;
+	display: block;
+	padding-top: 1em;
+	padding-bottom: 1em;
+	text-decoration: none;
+	font-weight: bold;
+	color: white;
+	background-color:#800000;
+	
+}
+#nav_list ul li a.current{
+	color: yellow;
+}
+#nav_list ul ul{
+	display:none;
+	position: absolute;
+	top: 100%;
+}
+#nav_list ul ul li{
+	float:none;
+}
+#nav_list ul li:hover>ul {
+	display: block;
+}
+#nav_list>ul::after{
+	content: "";
+	display: block;
+	clear: both;
+
+}
+#mobile_menu {display: none;}
+
+
+
+
+
+/* the styles for the main */
+main {
+	clear: left;
+}
+/*Section*/
+section{
+	width: 65.625%;
+	float: right;
+	padding-left: 2.5%;
+	padding-bottom: 20px;
+}
+section h1{
+	padding-left: .5em;
+	font-size: 150%;
+	padding-top: .5em;
+	padding-bottom: .25em;
+	margin-top: 0em;
+	margin-bottom: 0em;
+}
+section p { 
+		padding-bottom: .5em;
+
+}
+section h2{
+	color: #800000;
+	padding: .5em 0em .25em;
+}
+section blockquote{
+		padding-right: 2em;
+		padding-left: 2em;
+		font-style: italic;
+}
+
+section ul{
+		padding-bottom:.25em;
+		padding-left: 1.24em;
+}
+section ul.circle{
+	list-style-type:circle;
+}
+section li{
+		padding-bottom: .35em;
+}
+/*article*/
+article{
+	padding-top: .5em;
+	border-top: solid 2px #800000;
+	border-bottom: solid 2px #800000;
+}
+article img{
+	float: right;
+	margin: 1em;
+	border: solid 1px black;
+	max-width: 40%;
+	min-width: 150px;
+}
+article h2{
+	padding-top: 0em;
+	font-size: 130%;
+}
+article h3{
+	font-size: 105%;
+	padding-bottom: .25em;
+}
+/* aside */
+aside{
+	width: 26.875%;
+	padding-left: 2.5%;
+	padding-right: .25%;
+	padding-bottom: .5%;
+	font-size: 105%;
+}
+aside img{
+	padding-bottom: 1em;
+	
+}
+aside h2{
+	font-size:130%;
+	padding: .5em 0em .25em;
+}
+aside h3{
+	font-size: 105%;
+	padding-bottom: .25em;
+}
+aside a{	
+	font-style:italic;
+}
+/* the styles for the footer */
+footer p{
+	text-align: center;
+	color: white;
+	padding: 1em 1em;
+}
+Footer{
+	clear:both;
+	background-color: #931420;
+}
+/* tablet in portrait view */
+
+@media only screen and (max-width: 959px){
+	section h1{font-size: 135%;}
+	section h2{font-size: 120%;}
+	aside h2{font-size: 120%;}
+	header h2{text-align: center}
+	header h3{text-align: center}
+	#mobile_menu {display: none;}
+}
+/* phone in landscape orentation*/
+@media only screen and (max-width:767px){
+	header img{float: none;}
+	header{margin: auto;}
+	header h2{text-align: center}
+	header h3{text-align: center}
+	section{float: none;}
+	aside{float: none;}
+	aside{padding-left: 0.25%;}
+	section{width:97.5%}
+	aside{width:97.25%}
+	article img{max-width: 30%;}
+	aside div{column-count: 2;}
+	#mobile_menu {display: block;}
+	#nav_list {display: none;}
+}
+/* phone in portrait*/
+@media only screen and (max-width:479px){
+	*{font-size: 90%;}
+	#mobile_menu {display: block;}
+	#nav_list {display: none;}
+	header h2{text-align: center}
+	header h3{text-align: center}
+	.slicknav_list {color: #800000 !important;}
+}
