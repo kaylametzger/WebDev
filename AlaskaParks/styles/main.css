@@ -1,0 +1,143 @@
+/* the styles for the elements */
+html {
+	background-color: #9369d1;
+}
+body {
+	font-size: 100%;
+	margin: 0;
+}
+
+/* the styles for the header */
+header{
+	background-image: url("../images/header.jpg");
+	background-repeat: no-repeat;
+	height: 200px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+header h1{ 
+	text-align: center;
+	font: 50px arial, sans-serif;
+	color: black;
+	padding-top: 2.5em;
+	background-color: white;
+	opacity: 0.3;
+}
+/* the styles for the nav content */
+aside{
+	float:left;
+	margin-left:60px;
+	text-align: center;
+}
+aside h2 {
+	font: 25px arial, sans-serif;
+	text-align: center;
+	width: auto;
+	border-top: 5px solid black;
+	border-bottom: 5px solid black;
+	background: whitesmoke;
+	padding-top: 1em;
+	padding-bottom: 1em;
+	margin-left:7em;
+	margin-right: 3em;
+	margin-bottom: auto;
+}
+main{
+	float:left;
+	margin:60px;
+}
+.sidenav {
+	height: 100%;
+	width: 200px;
+	position: fixed;
+	z-index: 1;
+	top: 0;
+	left: 0;
+	background-color: #111;
+	overflow-x: hidden;
+	padding-top: 20px;
+	float:left;
+  }
+  
+  .sidenav a {
+	padding: 6px 8px 6px 16px;
+	text-decoration: none;
+	font-size: 25px;
+	color: #818181;
+	display: block;
+  }
+  
+  .sidenav a:hover {
+	color: #8057DB;
+  }
+  
+  .main {
+	margin-left: 160px; 
+	font-size: 28px; 
+	padding: 0px 10px;
+  }
+  
+/* the styles for the article content */
+article{
+	background: whitesmoke;
+}
+article p{
+	font: 25px arial, sans-serif;
+	text-align: left;
+
+}
+article img{
+	border: solid 1px black;
+	width: 400px;
+	height:313.5px;
+}
+article h2 {
+	font: 30px arial, sans-serif;
+	color: black;
+	text-shadow: 2px 2px 8px #8057DB;
+	text-align: center;
+	width: auto;
+	border-top: 5px solid black;
+	border-bottom: 5px solid black;
+	padding-top: 1em;
+	padding-bottom: 1em;
+}
+article b{
+	font-family: "sans-serif Bold";
+	font-size: 23px; 
+	font-style: normal;
+	font-variant: normal; 
+	font-weight: 700; 
+	line-height: 26.4px; 
+}
+article h3{
+	font: 20px arial, sans-serif;
+	padding-right:7em;
+	padding-left:7em;
+}
+article h4{
+	font: 18px arial, sans-serif;
+	padding-top: .5em;
+}
+	
+.clearfix::after {
+		content: "";
+		clear: both;
+		display: table;
+}
+/* the styles for the main content */
+
+main { clear: left;
+background-color: whitesmoke }
+
+
+/* the styles for the footer */
+
+footer p {
+	font: 17px arial, sans-serif;
+	border-bottom: 1px solid black;
+	background: whitesmoke;
+	padding-bottom: 1em;
+	text-align: center;
+}
