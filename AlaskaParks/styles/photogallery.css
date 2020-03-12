@@ -5,44 +5,28 @@ html {
 body {
 	font-size: 100%;
 	margin: 0;
+	margin-left:10em;
 }
 
 /* the styles for the header */
 header{
 	background-image: url("../images/header.jpg");
 	background-repeat: no-repeat;
-	height: 200px;
+	height: 150%;
 	display: block;
-	margin-left: auto;
+	margin-left: 10em;
 	margin-right: auto;
 }
 header h1{ 
 	text-align: center;
-	font: 50px arial, sans-serif;
+	font: 300% arial, sans-serif;
 	color: black;
 	padding-top: 2.5em;
 	background-color: white;
 	opacity: 0.3;
 }
 /* the styles for the nav content */
-aside{
-	float:left;
-	margin-left:60px;
-	text-align: center;
-}
-aside h2 {
-	font: 25px arial, sans-serif;
-	text-align: center;
-	width: auto;
-	border-top: 5px solid black;
-	border-bottom: 5px solid black;
-	background: whitesmoke;
-	padding-top: 1em;
-	padding-bottom: 1em;
-	margin-left:7em;
-	margin-right: 3em;
-	margin-bottom: auto;
-}
+
 
 .sidenav {
 	height: 100%;
@@ -83,29 +67,49 @@ aside h2 {
 
 main{
 	float:left;
-	margin:60px;
-	background: whitesmoke;
+	margin:5em;
+	background: #9369d1;
 }
-.wrapper{
-	width: 90%;
-	margin:0 auto;
-	display: grid;
 
-}
-.item{
-	background: #8057DB;
-	color: white;
-	padding: 10px;
-}
-.item:nth-child(even){
-	background: #818181;
-}
 /* the styles for the footer */
+.row {
+	display: flex;
+	flex-wrap: wrap;
+	padding: 0 4px;
+	margin-left: 20em;
+  }
+  
 
-footer p {
-	font: 17px arial, sans-serif;
-	border-bottom: 1px solid black;
+  .column {
+	flex: 25%;
+	max-width: 25%;
+	padding: 0 4px;
+  }
+  
+  .column img {
+	margin-top: 8px;
+	vertical-align: middle;
+	width: 100%;
+  }
+
+  @media screen and (max-width: 800px) {
+	.column {
+	  flex: 50%;
+	  max-width: 50%;
+	}
+  }
+  @media screen and (max-width: 600px) {
+	.column {
+	  flex: 100%;
+	  max-width: 100%;
+	}
+  }
+  footer p {
+	font: 1em arial, sans-serif;
+	border: 2px solid black;
 	background: whitesmoke;
 	padding-bottom: 1em;
+	padding-top:1em;
 	text-align: center;
+	margin-left: 10em;
 }

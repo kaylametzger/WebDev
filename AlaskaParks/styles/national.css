@@ -11,14 +11,14 @@ body {
 header{
 	background-image: url("../images/header.jpg");
 	background-repeat: no-repeat;
-	height: 200px;
+	height: 150%;
 	display: block;
-	margin-left: auto;
+	margin-left:10em;
 	margin-right: auto;
 }
 header h1{ 
 	text-align: center;
-	font: 50px arial, sans-serif;
+	font:300% arial, sans-serif;
 	color: black;
 	padding-top: 2.5em;
 	background-color: white;
@@ -27,11 +27,11 @@ header h1{
 /* the styles for the nav content */
 aside{
 	float:left;
-	margin-left:60px;
+	margin-left:2.5%;
 	text-align: center;
 }
 aside h2 {
-	font: 25px arial, sans-serif;
+	font:140% arial, sans-serif;
 	text-align: center;
 	width: auto;
 	border-top: 5px solid black;
@@ -45,25 +45,25 @@ aside h2 {
 }
 main{
 	float:left;
-	margin:60px;
+	margin:5em;
 }
 .sidenav {
 	height: 100%;
-	width: 200px;
+	width: 13em;
 	position: fixed;
 	z-index: 1;
 	top: 0;
 	left: 0;
 	background-color: #111;
 	overflow-x: hidden;
-	padding-top: 20px;
+	padding-top: 1.667em;
 	float:left;
   }
   
   .sidenav a {
-	padding: 6px 8px 6px 16px;
+	padding: 0.5em 0.667em 0.5em 1.333em;
 	text-decoration: none;
-	font-size: 25px;
+	font-size: 1.5em;
 	color: #818181;
 	display: block;
   }
@@ -73,9 +73,9 @@ main{
   }
   
   .main {
-	margin-left: 160px; 
-	font-size: 28px; 
-	padding: 0px 10px;
+	margin-left:5em; 
+	font-size: 2em; 
+	padding: 0em .5em;
   }
   
 /* the styles for the article content */
@@ -83,39 +83,39 @@ article{
 	background: whitesmoke;
 }
 article p{
-	font: 25px arial, sans-serif;
+	font: 5em arial, sans-serif;
 	text-align: left;
 }
 article img{
 	border: solid 1px black;
-	width: 500px;
-	height:313.5px;
+	width: 15em;
+	height:9.8em;
 	margin: auto;
 }
 article figcaption{
-	font: 20px arial, sans-serif;
+	font: .7em arial, sans-serif;
 }
 article h2 {
-	font: 30px arial, sans-serif;
+	font: 1em arial, sans-serif;
 	color: black;
 	text-shadow: 2px 2px 8px #8057DB;
 	text-align: center;
 	width: auto;
-	border-top: 5px solid black;
-	border-bottom: 5px solid black;
-	padding-top: 1em;
-	padding-bottom: 1em;
+	border-top: .2em solid black;
+	border-bottom: .2em solid black;
+	padding-top: .5em;
+	padding-bottom: .5em;
 }
 article b{
 	font-family: "sans-serif Bold";
-	font-size: 25px; 
+	font-size: .9em; 
 	font-style: normal;
 	font-variant: normal; 
 	font-weight: 700; 
-	line-height: 26.4px; 
+	line-height: 2.2em; 
 }
 article h3{
-	font: 20px arial, sans-serif;
+	font: .7em arial, sans-serif;
 }
 
 	
@@ -133,7 +133,7 @@ background-color: whitesmoke }
 /* the styles for the footer */
 
 footer p {
-	font: 17px arial, sans-serif;
+	font: 1em arial, sans-serif;
 	border-bottom: 1px solid black;
 	background: whitesmoke;
 	padding-bottom: 1em;
